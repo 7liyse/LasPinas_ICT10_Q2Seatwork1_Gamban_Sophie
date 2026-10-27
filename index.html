@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+<script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Rajdhani:wght
+@400;600&display=swap" rel="stylesheet"> 
+<title> Professional Highschool Glee Club </title> 
+ <style>
+         body {
+            font-family: 'Helvetica', Arial, sans-serif;
+            background-color: #f9e9cb;
+            color: #f04242;
+            margin: 0;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+           main {
+            background-color: white;
+            max-width: 350px;
+            margin: 30px auto;
+            padding: 25px;
+            border-radius: 5px;
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <div class="reactor"></div>
+        <h1>Professional Highschool Glee Club</h1>
+        <p> OBMC's Glee Club 2026-2027</p>
+    </header>
+
+    <main> 
+        <form>
+            <input type="text" id="first_name" placeholder="Enter your first name">
+            <br> <br>
+            <input type="text" id="last_name" placeholder="Enter your last name">
+            <br>
+            <input type="button" py-click="candidate_checker" value="Enter">
+        </form>
+    </main>
+    
+    <py-script src="main.py"></py-script>
+</body>
+</html>
